@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1880px) {
+	.container {
+		width: 50%;
+		left: 25%;
+	}
+	.command {
+		font-size: 14px;
+	}
+	.answer {
+		font-size: 14px;
+		padding-left: 15px;
+	}
+	.user-hostname {
+		font-size: 14px;
+		padding-left: 15px;
+	}
+	pre {
+		padding: 15px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 1630px) {	
+	.container {
+		width: 60%;
+		left: 20%;
+	}
+	.command {
+		font-size: 14px;
+	}
+	.answer {
+		font-size: 14px;
+		padding-left: 15px;
+	}
+	.user-hostname {
+		font-size: 14px;
+		padding-left: 15px;
+	}
+	pre {
+		padding: 15px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 1360px) {	
+	.container {
+		width: 70%;
+		left: 15%;
+	}
+}
+@media only screen and (max-width: 1160px) {	
+	.container {
+		width: 80%;
+		left: 10%;
+	}
+}
+@media only screen and (max-width: 1020px) {	
+	.container {
+		width: 90%;
+		left: 2%;
+	}
+}
+@media only screen and (max-width: 905px) {	
+	.container {
+		width: 90%;
+		left: 2%;
+	}
+	.command {
+		font-size: 13px;
+	}
+	.answer {
+		font-size: 13px;
+		padding-left: 10px;
+	}
+	.user-hostname {
+		font-size: 13px;
+		padding-left: 10px;
+	}
+	pre {
+		padding: 10px;
+		font-size: 13px;
+	}
+}
