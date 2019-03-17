@@ -20,7 +20,7 @@ Ajettu testi: https://search.google.com/test/mobile-friendly
 
 ## Selainyhteensopivuus
 
-| Selain: | Työpöytäversio:| Mobiiliversio: |
+|Selain: |Työpöytäversio:|Mobiiliversio: |
 | ------------- |:-------------:| -----:|
 | Google Chrome (72.0.3626.121) | OK | OK |
 | Mozilla Firefox (65.0.2)      | OK | OK |
