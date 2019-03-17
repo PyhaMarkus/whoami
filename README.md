@@ -3,6 +3,10 @@ A "business card" with HTML, CSS and JavaScript.
 
 ![alt text](https://github.com/PyhaMarkus/whoami/blob/master/img/whoami.PNG "$ whoami")
 
+## Esikatselu
+
+Katseltavissa: http://whoami.markuspyharanta.com/
+
 ## Esittely
 $ whoami on HTML5, CSS3 ja JavaScript kielillä tehty www-pohjainen “käyntikortti”. Tarkoituksenani oli tehdä omaperäinen ja tyylikäs tapa esittää omat henkilötietoni verkossa. Tavallaan se on myös hyvin pienimuotoinen CV, joka julkisesti katseltavissa miltä tahansa laitteelta.
 
