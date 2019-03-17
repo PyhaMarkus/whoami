@@ -1,5 +1,5 @@
 # $ whoami
-A "business card" with HTML, CSS and JavaScript.
+HTML, CSS, JavaScript -käyntikortti.
 
 ![alt text](https://github.com/PyhaMarkus/whoami/blob/master/img/whoami.PNG "$ whoami")
 
