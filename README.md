@@ -20,6 +20,8 @@ Kuten arvata voi, insipraatio ulkonäölle on otettu Linuxin terminaalista. Anim
 
 Ajettu testi: https://search.google.com/test/mobile-friendly
 
+![alt text](https://github.com/PyhaMarkus/whoami/blob/master/img/whoami.PNG "mobiilitesti")
+
 ---
 
 ## Selainyhteensopivuus
