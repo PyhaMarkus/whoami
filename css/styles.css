@@ -1,209 +1,83 @@
+/*=== Sitewide style ===*/
 body,
 html {
     height: 100%;
 	margin: 0px;
-	overflow: hidden;
+	overflow-x: hidden;
 }
-.container-header {
-	width: 50%;
-	margin: 0 auto;
-	position: absolute;
-	left: 27%;
-	top: 50px;
-
-}
-
 .container {
-	width: 50%;
-	margin: 0 auto;
-/*	background-color: white; */
-	opacity: 0.7;
+	width: 55%;
 	height: auto;
 	border-radius: 10px;
-	position: absolute;
-	left: 25%;
-	top: 150px;
 	padding: 30px;
-	
+	line-height: normal;
 }
-
+.container-terminal {
+	opacity: 0.7;
+}
 .container-copyright {
-	width: 50%;
-	margin: 0 auto;
-	height: 100px;
-	position: absolute;
-	left: 25%;
 	text-align: center;
-	top: 90%;
-
 }
-
-h1 {
-	font-family: 'Orbitron', sans-serif;
-	font-size: 38px;
-	color: white;
+.col-sm-auto {
+	padding-right: 0px;
 }
-
 p {
 	font-family: 'Ubuntu', sans-serif; 
 	font-size: 16px;
 	color: white;
 }
-
-pre {
-	color: white;
-	padding: 20px;
-	font-size: 16px;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-	text-align: justify;	
-}
-
-pre a{
-	color: white;
+a:hover{
 	text-decoration: none;
 }
 
-pre a:hover{
-	color: #51b5f7;
-}
-
-.profiletext {
-	font-family: 'Ubuntu', sans-serif; 
-	font-size: 16px;
-	color: black;
-}
-
-.command {
-	font-family: 'Ubuntu', sans-serif; 
-	font-size: 16px;
-	color: white;
-
-}
-.answer {
-	font-family: 'Ubuntu', sans-serif; 
-	font-size: 16px;
-	color: white;
-	margin: 0px;
-	padding-left: 20px;
-}
-
-.user-hostname {
-	font-family: 'Ubuntu', sans-serif; 
-	font-size: 16px;
-	color: #51b5f7;
-	padding-left: 20px;
-}
-
-.screenfetch-info {
-	color: #51b5f7;
-}
-
-.terminal-header {
-	font-family: 'Ubuntu', sans-serif; 
-	font-size: 16px;
-	color: white;
-}
-
+/*=== Header style ===*/
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
   width: 100%;
+  margin-top: 2em;
+  padding-inline-start: 0px;
 }
-
 li {
   float: left;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 38px;
 	color: white;
-	padding: 10px;
 	font-weight: bold;
 }
-.dollar {
-	font-family: 'Ubuntu', sans-serif; 
-	color: #2c2c2c;
-}
-
-.navlink {
-	font-size: 20px;	
-}
-.navlink a {	
-}
-
 li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 5px 5px;
   text-decoration: none;
   opacity: 0.4;
+  padding: 15px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
-
 li a:hover {
   color: black;
   opacity: 1;
   border-bottom: 2px solid rgba(255, 255, 255, .5);
 }
-
-.wrapper {
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 50% 50%;
+.whoami-logo a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+.whoami-logo a:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+.whoami-dollar {
+	font-family: 'Ubuntu', sans-serif; 
+	color: #2c2c2c;
 }
 
-.grid-1 {
-	grid-column: span 4;
-	padding: 10px;
-	height: auto;
-	max-height: 100px;
-	
-}
-
-.grid-2 {
-	grid-column: span 8;
-	height: auto;
-	padding: 10px;
-	max-height: 100px;
-}
-
-.grid-3 {
-	grid-column: span 12;
-	padding: 10px;
-	height: auto;
-
-}
-
-.profile-picture {
-	height: auto;
-	width: 60%;
-	max-width: 100%;
-	
-}
-
-.terminal-image {
-	float: right;
-	padding: 7px;
-}
-
-.terminal-image:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
-}
-
-#particles-js {
-	background-color: #51b5f7;
-	background-image: linear-gradient(to bottom right, #51b5f7, #eeeeee);
-	width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -10;
-    top: 0;
-    left: 0
-	}
-	
+/*=== Terminal style ===*/
 .terminal-top {
 	background-color: #2f2f2f;
 	border-top-left-radius: 10px;
@@ -213,10 +87,17 @@ li a:hover {
 	line-height: 30px;
 	-webkit-box-shadow: 7px 7px 40px 0px rgba(0,0,0,0.4);
 	-moz-box-shadow: 7px 7px 40px 0px rgba(0,0,0,0.4);
-	box-shadow: 7px 7px 15px 0px rgba(0,0,0,0.4);
-	
+	box-shadow: 7px 7px 15px 0px rgba(0,0,0,0.4);	
 }
-
+.terminal-header {
+	font-family: 'Ubuntu', sans-serif; 
+	font-size: 16px;
+	color: white;
+}
+.terminal-header-x {
+	float: right;
+	padding: 7px;
+}
 .terminal {
 	background-color: black;
 	border-bottom-left-radius: 10px;
@@ -228,38 +109,64 @@ li a:hover {
 	-moz-box-shadow: 7px 7px 40px 0px rgba(0,0,0,0.4);
 	box-shadow: 7px 7px 15px 0px rgba(0,0,0,0.4);
 }
-
-.profile {
-	background-color: #eeeeee;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	height: 130px;
-	padding-top: 10px;
-	border-radius: 10px;
-	padding: 20px;
-}
-
-input {
-	background-color: black;
-	border-color: transparent;
-	color: white;
+.terminal-user-hostname {
 	font-family: 'Ubuntu', sans-serif; 
 	font-size: 16px;
+	color: #51b5f7;
+	padding-left: 20px;
 }
-input:focus{
-	outline-width: 0;
+.terminal-command {
+	font-family: 'Ubuntu', sans-serif; 
+	font-size: 16px;
+	color: white;
 }
-
-.blink{
+.terminal-reply {
+	font-family: 'Ubuntu', sans-serif; 
+	font-size: 16px;
+	color: white;
+	margin: 0px;
+	padding-left: 20px;
+}
+.terminal-pre-ascii {
+	color: #51b5f7;
+}
+pre {
+	color: white;
+	padding: 20px;
+	font-size: 16px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	text-align: justify;
+	overflow: hidden;
+}
+pre a{
+	color: white;
+	text-decoration: none;
+}
+pre a:hover {
+	color: #51b5f7;
+}
+.blink {
     animation:blink 500ms infinite alternate;
 	background-color: #51b5f7;
 	width: 3px;
-	color: black;
+	color: rgba(255, 255, 255, 0);
 }
-
 @-webkit-keyframes blink {
       0% { opacity: 0.7; }
      49% { opacity: 0.7; }
      50% { opacity: 0; }
     100% { opacity: 0; }
 }
+
+/*=== Particles.js style ===*/
+#particles-js {
+	background-color: #51b5f7;
+	background-image: linear-gradient(to bottom right, #51b5f7, #eeeeee);
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+	}

@@ -1,81 +1,137 @@
-@media only screen and (max-width: 1880px) {
+@media only screen and (max-width: 1900px) {
 	.container {
-		width: 50%;
-		left: 25%;
+		width: 55%;
+		max-width: none;
 	}
-	.command {
+	.terminal-command {
 		font-size: 14px;
 	}
-	.answer {
+	.terminal-reply {
 		font-size: 14px;
-		padding-left: 15px;
 	}
-	.user-hostname {
+	.terminal-user-hostname {
 		font-size: 14px;
-		padding-left: 15px;
 	}
 	pre {
 		padding: 15px;
 		font-size: 14px;
 	}
 }
-@media only screen and (max-width: 1630px) {	
+@media only screen and (max-width: 1620px) {	
 	.container {
 		width: 60%;
-		left: 20%;
-	}
-	.command {
-		font-size: 14px;
-	}
-	.answer {
-		font-size: 14px;
-		padding-left: 15px;
-	}
-	.user-hostname {
-		font-size: 14px;
-		padding-left: 15px;
-	}
-	pre {
-		padding: 15px;
-		font-size: 14px;
 	}
 }
-@media only screen and (max-width: 1360px) {	
+@media only screen and (max-width: 1490px) {	
+	.container {
+		width: 65%;
+	}
+}
+@media only screen and (max-width: 1370px) {	
 	.container {
 		width: 70%;
-		left: 15%;
 	}
 }
-@media only screen and (max-width: 1160px) {	
+@media only screen and (max-width: 1280px) {	
+	.container {
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 1190px) {	
 	.container {
 		width: 80%;
-		left: 10%;
 	}
 }
-@media only screen and (max-width: 1020px) {	
+@media only screen and (max-width: 1120px) {	
 	.container {
-		width: 90%;
-		left: 2%;
+		width: 85%;
 	}
 }
-@media only screen and (max-width: 905px) {	
+@media only screen and (max-width: 1050px) {	
 	.container {
 		width: 90%;
-		left: 2%;
 	}
-	.command {
-		font-size: 13px;
+}
+@media only screen and (max-width: 1000px) {	
+	.container {
+		width: 95%;
 	}
-	.answer {
-		font-size: 13px;
-		padding-left: 10px;
+}
+@media only screen and (max-width: 940px) {	
+	.container {
+		width: 100%;
+		padding: 5px;
 	}
-	.user-hostname {
-		font-size: 13px;
-		padding-left: 10px;
+	.col-sm {
+		padding: 5px;
+	}
+	.hide-ascii {
+		display: none;
+	}
+	.container-copyright {
+		padding-top: 40px;
+	}
+}
+@media only screen and (max-width: 820px) {	
+	.col-sm {
+		padding: 5px;
+	}
+	.terminal-command {
+		font-size: 14px;
+	}
+	.terminal-reply {
+		font-size: 14px;
+	}
+	.terminal-user-hostname {
+		font-size: 14px;
 	}
 	pre {
-		padding: 10px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 575px) {	
+	.col-sm {
+		padding-left: 20px;
+	}
+}
+@media only screen and (max-width: 515px) {	
+	.col-sm {
+		padding-left: 5px;
+	}
+	/*.container-header ul {
+		text-align: center;
+	}*/
+	/*.whoami-logo {
+		display: inline-block;
+		float: none;
+	} */
+	pre {
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		text-align: justify;
+		overflow: hidden;
+	}
+	.terminal-reply {
+		padding-left: 5px; 
+	}
+	.terminal-user-hostname {
+		padding-left: 5px; 
+	}
+	.header-socialmedia {
+		display: none;
+	}
+}
+@media only screen and (max-width: 500px) {	
+	pre {
+		font-size: 10px;
+	}
+	.terminal-command {
+		font-size: 13px;
+	}
+	.terminal-reply {
+		font-size: 13px;
+	}
+	.terminal-user-hostname {
 		font-size: 13px;
 	}
 }

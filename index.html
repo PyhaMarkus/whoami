@@ -2,139 +2,179 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<script src="js/particles.js"></script>	
 	
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
 	$(document).ready(function(){
-	if($(window).width() < 950) {
+	if($(window).width() < 790) {
 			window.location = "https://markuspyharanta.com/tietoa";
 	}
 	});
-	</script>
+	</script> -->
 </head>
-
 <title>$ whoami - Markus Pyhäranta</title>
-
 <body>
-	<div class="container-header">
-		<ul>
-			<li><span class="dollar">$</span> whoami</li>
-			<li style="float:right" class="navlink">
-				<a href="https://www.linkedin.com/in/markuspyharanta/">
-					<img src="img/linkedin-icon.png" alt="LinkedIn">
-				</a>
-			</li>
-			<li style="float:right" class="navlink">
-				<a href="https://github.com/PyhaMarkus">
-					<img src="img/github-icon.png" alt="GitHub">
-				</a>
-			</li>
-			<li style="float:right" class="navlink">
-				<a href="https://markuspyharanta.com">
-					<img src="img/wordpress-icon.png" alt="Wordpress">
-				</a>
-			</li>
-		</ul>
+<div class="container container-header">
+	<ul>
+		<li class="whoami-logo">
+			<a href="http://whoami.markuspyharanta.com">
+				<span class="whoami-dollar">$</span> whoami
+			</a>
+		</li>
+		<li style="float:right" class="header-socialmedia">
+			<a href="https://www.linkedin.com/in/markuspyharanta/">
+				<img src="img/linkedin-icon.png" alt="LinkedIn">
+			</a>
+		</li>
+		<li style="float:right" class="header-socialmedia">
+			<a href="https://github.com/PyhaMarkus">
+				<img src="img/github-icon.png" alt="GitHub">
+			</a>
+		</li>
+		<li style="float:right" class="header-socialmedia">
+			<a href="https://markuspyharanta.com">
+				<img src="img/wordpress-icon.png" alt="Wordpress">
+			</a>
+		</li>
+	</ul>
+</div>
+<div class="container container-terminal">					
+	<div class="terminal-top">
+		<span class="terminal-header">markus@localhost:~</span>
+			<a href="https://markuspyharanta.com">
+				<img src="img/close-x.png" class="terminal-header-x">
+			</a>
 	</div>
-		<div class="container">
-			<div class="wrapper">						
-				<div class="grid-3">
-					<div class="terminal-top">
-						<span class="terminal-header">markus@localhost:~</span>
-							<a href="https://markuspyharanta.com">
-								<img src="img/close-x.png" class="terminal-image">
-							</a>
-					</div>
-					<div class="terminal">
-						<span class="user-hostname">markus@localhost:~</span><span class="command" id="ssh">$ </span>
-						<p class="answer" id="sshreply">Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-134-generic x86_64)</p>
-						<br>
-						<span class="user-hostname afterssh">markus@markuspyharanta.com:~</span><span class="command afterssh" id="whoami">$ </span>
+	<div class="terminal">
+		<span class="terminal-user-hostname">markus@localhost:~</span><span class="terminal-command" id="ssh">$ <span id="cursor-blink1" class="blink">_</span></span>
+		<p class="terminal-reply SSH-login-output">Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-134-generic x86_64)</p>
+		<br>
+		<span class="terminal-user-hostname SSH-logged-in">markus@markuspyharanta.com:~</span><span class="terminal-command SSH-logged-in" id="whoami">$ <span id="cursor-blink2" class="blink">_</span></span>
 
-						
-<pre id="whoami-output">
-<span class="screenfetch-info">   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</span>	<span class="screenfetch-info">Name:</span> Markus Pyhäranta
-<span class="screenfetch-info"> MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</span>	<span class="screenfetch-info">Age:</span> 22
-<span class="screenfetch-info">MMM</span>MMMMMM<span class="screenfetch-info">MMMMMMMMMMMMMMMMMM</span>MMMMMM<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Gender:</span> Male
-<span class="screenfetch-info">MMM</span>M'    .M<span class="screenfetch-info">MMMMMMMMMMMMMM</span>M.    'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Degree:</span> Bachelor of business administration
-<span class="screenfetch-info">MMM</span>M.      .M<span class="screenfetch-info">MMMMMMMMMM</span>M.      'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Profile studies:</span> ICT-infrastructures and IT security
-<span class="screenfetch-info">MMM</span>M.       .M<span class="screenfetch-info">MMMMMMMM</span>M.       'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Languages:</span> Finnish, English, Swedish, Russian
-<span class="screenfetch-info">MMM</span>M.   ..    .M<span class="screenfetch-info">MMMM</span>M.    ..   'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info"></span>
-<span class="screenfetch-info">MMM</span>M.   ,MM.    'MM'    .MM'   'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">E-mail:</span> markus.pyharanta(a)mapy.fi
-<span class="screenfetch-info">MMM</span>M.   ,M<span class="screenfetch-info">MM</span>M.        .M<span class="screenfetch-info">MM</span>M'   'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Location:</span> 01280 Vantaa, Finland
-<span class="screenfetch-info">MMM</span>M.   ,M<span class="screenfetch-info">MMM</span>M.     .M<span class="screenfetch-info">MMMM</span>M'   'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Website:</span> <a href="https://markuspyharanta.com">https://markuspyharanta.com</a>
-<span class="screenfetch-info">MMM</span>M.   ,M<span class="screenfetch-info">MMMMM</span>M'..'M<span class="screenfetch-info">MMMMM</span>M'   'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info"></span>
-<span class="screenfetch-info">MMM</span>M.   ,M<span class="screenfetch-info">MMMMMMMMMMMMMMMM</span>M'   'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Work experience:</span> IT support, Web Hosting, IoT prototyping
-<span class="screenfetch-info">MMM</span>M.   ,M<span class="screenfetch-info">MMMMMMMMMMMMMMMM</span>M'   'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Education:</span> Haaga-Helia (BBA), Tikkurilan lukio (A Level)
-<span class="screenfetch-info">MMM</span>M.   ,M<span class="screenfetch-info">MMMMMMMMMMMMMMMM</span>M'   'M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Hardware knowledge:</span> PCs, ThinkPad & HP laptops, Xerox printers
-<span class="screenfetch-info">MMM</span>M:''',M<span class="screenfetch-info">MMMMMMMMMMMMMMMM</span>M:''':M<span class="screenfetch-info">MMM</span>	<span class="screenfetch-info">Software knowledge:</span> Windows, Debian-Linux, Office 365
-<span class="screenfetch-info"> MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</span>	<span class="screenfetch-info">Other:</span> Ticketing systems, IP Networks, Web Development
-<span class="screenfetch-info">   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</span>	<span class="screenfetch-info">Interested in:</span> Customer Support, System Administration
+		<div class="row">	
+			<div class="col-sm-auto">
+			
+<pre class="WHOAMI-output hide-ascii">
+<span class="terminal-pre-ascii">   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</span>
+<span class="terminal-pre-ascii"> MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</span>
+<span class="terminal-pre-ascii">MMM</span>MMMMMM<span class="terminal-pre-ascii">MMMMMMMMMMMMMMMMMM</span>MMMMMM<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M'    .M<span class="terminal-pre-ascii">MMMMMMMMMMMMMM</span>M.    'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.      .M<span class="terminal-pre-ascii">MMMMMMMMMM</span>M.      'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.       .M<span class="terminal-pre-ascii">MMMMMMMM</span>M.       'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.   ..    .M<span class="terminal-pre-ascii">MMMM</span>M.    ..   'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.   ,MM.    'MM'    .MM'   'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.   ,M<span class="terminal-pre-ascii">MM</span>M.        .M<span class="terminal-pre-ascii">MM</span>M'   'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.   ,M<span class="terminal-pre-ascii">MMM</span>M.     .M<span class="terminal-pre-ascii">MMMM</span>M'   'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.   ,M<span class="terminal-pre-ascii">MMMMM</span>M'..'M<span class="terminal-pre-ascii">MMMMM</span>M'   'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.   ,M<span class="terminal-pre-ascii">MMMMMMMMMMMMMMMM</span>M'   'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.   ,M<span class="terminal-pre-ascii">MMMMMMMMMMMMMMMM</span>M'   'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M.   ,M<span class="terminal-pre-ascii">MMMMMMMMMMMMMMMM</span>M'   'M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii">MMM</span>M:''',M<span class="terminal-pre-ascii">MMMMMMMMMMMMMMMM</span>M:''':M<span class="terminal-pre-ascii">MMM</span>
+<span class="terminal-pre-ascii"> MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</span>
+<span class="terminal-pre-ascii">   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</span>
 </pre>
 
+			</div>
+			<div class="col-sm">
+			
+<pre class="WHOAMI-output">
+<span class="terminal-pre-ascii">Name:</span> Markus Pyhäranta
+<span class="terminal-pre-ascii">Age:</span> 22
+<span class="terminal-pre-ascii">Gender:</span> Male
+<span class="terminal-pre-ascii">Degree:</span> Bachelor of business administration
+<span class="terminal-pre-ascii">Profile studies:</span> ICT-infrastructures and IT security
+<span class="terminal-pre-ascii">Languages:</span> Finnish, English, Swedish, Russian
+<span class="terminal-pre-ascii"></span>
+<span class="terminal-pre-ascii">E-mail:</span> markus.pyharanta(a)mapy.fi
+<span class="terminal-pre-ascii">Location:</span> 01280 Vantaa, Finland
+<span class="terminal-pre-ascii">Website:</span> <a href="https://markuspyharanta.com">https://markuspyharanta.com</a>
+<span class="terminal-pre-ascii"></span>
+<span class="terminal-pre-ascii">Work experience:</span> IT support, Web Hosting, IoT prototyping	
+<span class="terminal-pre-ascii">Education:</span> Haaga-Helia (BBA), Tikkurilan lukio (A Level)
+<span class="terminal-pre-ascii">Hardware knowledge:</span> PCs, ThinkPad & HP laptops, Xerox printers	
+<span class="terminal-pre-ascii">Software knowledge:</span> Windows, Debian-Linux, Office 365
+<span class="terminal-pre-ascii">Other:</span> Ticketing systems, IP Networks, Web Development
+<span class="terminal-pre-ascii">Interested in:</span> Customer Support, System Administration
+</pre>
 
-						<span class="user-hostname finalrow">markus@markuspyharanta.com:~</span><span class="command finalrow" id="exit">$ </span>
-						<p class="answer return">logout</p><!--<input type="text" id="terminal-input" class="return" autofocus>-->
-						<p class="answer return">Connection to markuspyharanta.com closed.</p>
-						<br>
-						<span class="user-hostname afterexit">markus@localhost:~</span><span class="command afterexit" id="exit">$ </span><span class="blink">_</span>
-					</div>						
-				</div>
-			</div>	
+			</div>
+
 		</div>
-		<div class="container-copyright">
-				<p class="copyright-notice">Markus Pyhäranta 2019<p>
-		</div>
+
+		<span class="terminal-user-hostname SSH-logged-in2">markus@markuspyharanta.com:~</span><span class="terminal-command SSH-logged-in2" id="exit">$ <span id="cursor-blink3" class="blink">_</span></span>
+		<p class="terminal-reply SSH-exit">logout</p>
+		<p class="terminal-reply SSH-exit">Connection to markuspyharanta.com closed.</p>
+		<br>
+		<span class="terminal-user-hostname SSH-logged-out">markus@localhost:~</span><span class="terminal-command SSH-logged-out" id="exit">$ </span><span id="cursor-blink4" class="blink">_</span>
+	</div>						
+</div>	
+<div class="container container-copyright">
+	<a href="https://markuspyharanta.com">
+		<p>Markus Pyhäranta 2019<p>
+	</a>
+</div>
 <div id="particles-js"></div>
-<!-- Load particles.js-->
+
+<!-- JavaScript -->
+<!-- Load particles.js -->
 <script>
 particlesJS.load('particles-js', 'json/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 </script>
+<!-- JavaScript code for terminal functions -->
 <script>
+// Function for terminal-like user input
 var showText = function (target, message, index, interval) {    
   if (index < message.length) { 
     $(target).append(message[index++]); 
     setTimeout(function () { showText(target, message, index, interval); }, interval); 
   } 
 }
-
+// Function for sleep
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-
+// Function for animated terminal prompt
 async function printTerminal() { 
-		$( "#sshreply" ).css('visibility','hidden');  
-		$( ".afterssh" ).css('visibility','hidden');
-		$( "#whoami-output" ).css('visibility','hidden');
-		$( ".finalrow" ).css('visibility','hidden');
-		$( ".return" ).css('visibility','hidden');
-		$( ".afterexit" ).css('visibility','hidden');
-		$( ".blink" ).css('visibility','hidden');
+		$( ".SSH-login-output" ).css('visibility','hidden');  
+		$( ".SSH-logged-in" ).css('visibility','hidden');
+		$( ".WHOAMI-output" ).css('visibility','hidden');
+		$( ".SSH-logged-in2" ).css('visibility','hidden');
+		$( ".SSH-exit" ).css('visibility','hidden');
+		$( ".SSH-logged-out" ).css('visibility','hidden');
+		$( "#cursor-blink2" ).hide();
+		$( "#cursor-blink3" ).hide();
+		$( "#cursor-blink4" ).hide();
 		await sleep(1000);
+		$( "#cursor-blink1" ).hide();
 		showText("#ssh", "ssh markus@markuspyharanta.com", 0, 50);
 		await sleep(2000);
-		$( "#sshreply" ).css('visibility','');
-		$( ".afterssh" ).css('visibility','');
+		$( ".SSH-login-output" ).css('visibility','');
+		$( ".SSH-logged-in" ).css('visibility','');
+		$( "#cursor-blink2" ).show();
 		await sleep(2000);
+		$( "#cursor-blink2" ).hide();
 		showText("#whoami", "whoami", 0, 50);
 		await sleep(1000);
-		$( "#whoami-output" ).css('visibility','');
-		$( ".finalrow" ).css('visibility','');
-		$( ".finalrow" ).css('visibility','');
+		$( ".WHOAMI-output" ).css('visibility','');
+		$( "#cursor-blink3" ).show();
+		$( ".SSH-logged-in2" ).css('visibility','');
 		await sleep(2000);
+		$( "#cursor-blink3" ).hide();
 		showText("#exit", "exit", 0, 50);
 		await sleep(1000);
-		$( ".return" ).css('visibility','');
-		$( ".afterexit" ).css('visibility','');
-		$( ".blink" ).css('visibility','');
+		$( ".SSH-exit" ).css('visibility','');
+		$( ".SSH-logged-out" ).css('visibility','');
+		$( "#cursor-blink4" ).show();
 };
 printTerminal();
 </script>
